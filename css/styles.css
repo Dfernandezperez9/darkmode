@@ -1,0 +1,158 @@
+.bodyMasterDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerMasterDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+}
+
+.tituloMasterDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+}
+
+.parrafoTituloMasterDiv {
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.botonMasterDiv {
+    position: relative;
+    left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100px;
+    width: 400px;
+}
+
+.botonMasterDiv1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 150px;
+}
+
+.parrafoBotonMasterDiv1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.botonMasterDiv2 {
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 150px;
+    background-color: #ccc;
+}
+
+.botonMasterDiv2_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/img/luna.png');
+    background-size: cover;
+    background-color: blue;
+    cursor: pointer;
+    position: relative;
+    left: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+}
+
+
+.mainMasterDiv {
+    width: 97%;
+    height: 600px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.imagenMainMasterDiv {
+    width: 100%;
+    height: 100%;
+}
+
+.footerMasterDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    height: 600px;
+}
+
+.h1FooterMasterDiv {
+    font-size: 50px;
+}
+
+.parrafoFooterMasterDiv {
+    font-size: 18px;
+}
+
+.parrafoDarkMode {
+    color: white;
+}
+
+.bodyDarkMode {
+    background-color: black;
+}
+
+.botonDarkMode {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/img/sol.png');
+    background-size: cover;
+    background-color: gold;
+    transform: translateX(-90px);
+}
+
+.asistenteBoton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 200px;
+    translate: 770px 10px;
+}
+
+.parrafoLightMode {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+
